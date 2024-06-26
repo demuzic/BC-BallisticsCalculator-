@@ -129,12 +129,11 @@
   <ItemGroup>
     <ClCompile Include="BCgui.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="..\..\..\..\Desktop\RobotoCondensed.ttf" />
+    <ClCompile Include="PhysicOP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BCgui.h" />
+    <ClInclude Include="PhysicOP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
