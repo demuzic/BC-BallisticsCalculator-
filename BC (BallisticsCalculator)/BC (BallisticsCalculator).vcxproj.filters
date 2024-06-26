@@ -21,14 +21,15 @@
     <ClCompile Include="BCgui.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="..\..\..\..\Desktop\RobotoCondensed.ttf">
-      <Filter>Arquivos de Recurso</Filter>
-    </Font>
+    <ClCompile Include="PhysicOP.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BCgui.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicOP.h">
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
   </ItemGroup>
